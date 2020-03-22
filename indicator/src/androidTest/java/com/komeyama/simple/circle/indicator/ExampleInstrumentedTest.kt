@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.komeyama.simple.circle.indicator", appContext.packageName)
+        assertEquals("com.komeyama.simple.circle.indicator.test", appContext.packageName)
     }
 }
